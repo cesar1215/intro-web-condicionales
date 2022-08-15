@@ -8,6 +8,9 @@
 ## Introducción
 Hemos aprendido que una declaración `if` revisa una condición y ejecuta una tarea si esa condición se evalúa a `true`. Es hora de poner en práctica nuestros aprendizajes. 
 
+### Funcionalidad del Código
+En éste lab harás que cuando `bird` colisione con el suelo, `bird` deje de moverse hacia abajo.
+
 ## Instrucciones
 Bifurca (fork) y clona (clone) este lab en tu entorno local. Navega a su directorio en la terminal, luego ejecuta el comando `code .` para abrir sus archivos en Visual Studio Code. 
 
