@@ -7,13 +7,19 @@ let birdBottom = 100
 Crea una función terminar(). El siguiente código se debe de ejecutar al llamar a la función:
 clearInterval(timerId)
 */
-
+function terminar(){
+    clearInterval(timerId)
+}
 
 /* Ejercicio 2.
 Crea una función verificarColision(). Dentro de la función, agrega una declaración if
 que revise si birdBottom es menor a 0. Si es birdBottom es menor a 0, llama a la función terminar().
 */
-
+function verificarColision(){
+    if(birdBottom < 0){
+        terminar()
+    }
+}
 
 
 /* Ejercicio 3.
@@ -23,6 +29,7 @@ Modifica la función loop(). Cuando se llame a la función:
 */
 function loop() {
     efectoGravedad() 
+    verificarColision()
 }
 
 
